@@ -32,7 +32,10 @@ void main() {
     controller.add(queryResult);
 
     await tester.pumpWidget(CountriesApp(client: mockClient));
-    expect(find.text('Countries'), findsOneWidget);
+    await tester.pumpAndSettle(const Duration(milliseconds: 100));
+
+    expect(find.byIcon(Icons.cloud_queue), findsOneWidget);
+    expect(find.text('Connect to the internet'), findsOneWidget);
 
     await controller.close();
   });

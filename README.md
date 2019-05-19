@@ -2,7 +2,7 @@
 
 ![countries](screenshots/screen-1.png?raw=true)
 
-A Flutter application that displays a list of countries using the [Countries GraphQL API](https://github.com/trevorblades/countries).
+A Flutter application that displays a list of countries and some info about them using the [Countries GraphQL API](https://github.com/trevorblades/countries).
 
 ## Acknowledgements
 - [GraphQL Flutter](https://github.com/zino-app/graphql-flutter)

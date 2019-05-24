@@ -21,7 +21,7 @@ dependencies:
     sdk: flutter
   material_design_icons_flutter: ^3.2.3595
   graphql_flutter: ^1.0.0+4
-  flutter_svg: ^0.12.4+1
+  flutter_svg: ^0.13.0+1
   font_awesome_flutter: ^8.4.0
   mockito: ^4.0.0
 
